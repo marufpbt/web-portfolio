@@ -1,19 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	font-family: 'Poppins', sans-serif;
 }
 h1, h2 {
 	font-size: 50px;
 }
-span.color-highlight{
-	color: orange;
+p{
+	color: dimgray;
+	margin-top: 10px;
 }
+section{
+	height: 500px;
+}
+.btn{
+	text-transform: uppercase;
+	color: #ffffff;
+	background:#F87C62;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
 .half-width{
 	width: 40%;
 	float: left;
-	margin:0 5%;
-	margin-top: 20px;;
+	margin-left:5%;
+	padding-left: 2%;
 }
-img{
-	width:100%;
+img {
+    width: 100%;
+    margin-top: 5%;
+}
+#hero-section{
+	background: url("images/top-banner.png") no-repeat;
+
+}
+#hero-section .img-ctrl{
+	width: 80%!important;
+}
+span.color-highlight{
+	color: orange;
+}
+
+#hero-section .left-area{
+	margin-top: 100px;
+}
+#dream-area{
+	background: url("images/dream-bg.png") no-repeat;
+	background-position: right;
+}
+#dream-area .text-ctrl {
+    margin-top: 10%;
+}
+#dream-area .text-ctrl h3 {
+    margin-top: 20px;
+}
+#dream-area .text-ctrl p {
+    margin-top: 15px;
 }
